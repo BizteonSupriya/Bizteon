@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>TaalonWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+  <env-entry>
+    <env-entry-name>DBConnectURL</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>jdbc:mysql://cgs-devdb.czspzuv6lcaw.us-west-2.rds.amazonaws.com:3306/taalondb</env-entry-value>
+  </env-entry>
+  <env-entry>
+    <env-entry-name>DBUserName</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>cgsadmin</env-entry-value>
+  </env-entry>
+  <env-entry>
+    <env-entry-name>DBPassword</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+   <!--  <env-entry-value>cypre55gs</env-entry-value> -->
+     <env-entry-value>Y3lwcmU1NWdz</env-entry-value> 
+  </env-entry>
+
+</web-app>
